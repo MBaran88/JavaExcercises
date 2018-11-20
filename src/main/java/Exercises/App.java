@@ -1,6 +1,9 @@
 package Exercises;
 
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 /**
@@ -40,8 +43,58 @@ public class App
 //        System.out.println(firstNumber + " / " + secondNumber + " equals " + resultDivision);
 //        System.out.println(firstNumber + " % " + secondNumber + " equals " + resultModulo);
 
-        Scanner input = new Scanner(System.in);
+//        System.out.println("Enter input number:");
+//        Scanner input = new Scanner(System.in);
+//        int inputNumber = input.nextInt();
+//        int timesOne = inputNumber * 1;
+//        int timesTwo = inputNumber * 2;
+//        int timesThree = inputNumber * 3;
+//        int timesFour = inputNumber * 4;
+//        int timesFive = inputNumber * 5;
+//        int timesSix = inputNumber * 6;
+//        int timesSeven = inputNumber * 7;
+//        int timesEight = inputNumber * 8;
+//        int timesNine = inputNumber * 9;
+//        int timesTen = inputNumber * 10;
+//
+//        System.out.println("Results:");
+//        System.out.println(inputNumber + " x 1 = " + timesOne);
+//        System.out.println(inputNumber + " x 2 = " + timesTwo);
+//        System.out.println(inputNumber + " x 3 = " + timesThree);
+//        System.out.println(inputNumber + " x 4 = " + timesFour);
+//        System.out.println(inputNumber + " x 5 = " + timesFive);
+//        System.out.println(inputNumber + " x 6 = " + timesSix);
+//        System.out.println(inputNumber + " x 7 = " + timesSeven);
+//        System.out.println(inputNumber + " x 8 = " + timesEight);
+//        System.out.println(inputNumber + " x 9 = " + timesNine);
+//        System.out.println(inputNumber + " x 10 = " + timesTen);
 
+//        System.out.println("   J    a   v     v  a");
+//        System.out.println("   J   a a   v   v  a a");
+//        System.out.println("J  J  aaaaa   V V  aaaaa");
+//        System.out.println(" JJ  a     a   V  a     a");
+
+//        double result = ((25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5));
+//        System.out.println(result);
+
+//    double result = 4.0 * (1 - (1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11));
+//        System.out.println(result);
+
+//        double radius=7.5;
+//        double diameter=2 * radius;
+//        double pi = 3.14;
+//        DecimalFormat df = new DecimalFormat(".####");
+//
+//        double perimeterResult = 2 * pi * radius;
+//        double areaResult = pi * Math.pow(radius,2);
+//
+//        df.format(perimeterResult);
+//
+//        System.out.println("area is: "+ df.format(areaResult));
+//        System.out.println("perimeter is: "+ df.format(perimeterResult));
+
+//        df.setRoundingMode(java.math.RoundingMode.DOWN);
+//        System.out.println(df.format(perimeterResult));
 
     }
 

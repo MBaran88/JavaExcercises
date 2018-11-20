@@ -68,7 +68,7 @@ Expected Output :
 ...
 8 x 10 = 80
 
-
+DONE
 
 8. Write a Java program to display the following pattern. Go to the editor
 Sample Pattern :
@@ -78,6 +78,7 @@ Sample Pattern :
 J  J  aaaaa   V V  aaaaa
  JJ  a     a   V  a     a
 
+DONE
 
 
 9. Write a Java program to compute the specified expressions and print the output. Go to the editor
@@ -86,7 +87,7 @@ Test Data:
 Expected Output
 2.138888888888889
 
-
+DONE
 
 10. Write a Java program to compute a specified formula. Go to the editor
 Specified Formula :
@@ -94,7 +95,7 @@ Specified Formula :
 Expected Output
 2.9760461760461765
 
-
+DONE
 
 11. Write a Java program to print the area and perimeter of a circle. Go to the editor
 Test Data:
@@ -103,7 +104,7 @@ Expected Output
 Perimeter is = 47.12388980384689
 Area is = 176.71458676442586
 
-
+DONE
 
 12. Write a Java program that takes three numbers as input to calculate and print the average of the numbers. Go to the editor
 
