@@ -97,7 +97,7 @@ public class App
         //two variables to hold two input variable numbers
 
 //Two variables to hold two input binary numbers
-        long b1, b2;
+        long ten, eleven;
         int i = 0, carry = 0;
 
         //This is to hold the output binary number
@@ -108,19 +108,19 @@ public class App
 
         //getting first binary number from user
         System.out.print("Enter first binary number: ");
-        b1 = scanner.nextLong();
+        ten = scanner.nextLong();
         //getting second binary number from user
         System.out.print("Enter second binary number: ");
-        b2 = scanner.nextLong();
+        eleven = scanner.nextLong();
 
         //closing scanner after use to avoid memory leak
         scanner.close();
-        while (b1 != 0 || b2 != 0)
+        while (ten != 0 || eleven != 0)
         {
-            sum[i++] = (int)((b1 % 10 + b2 % 10 + carry) % 2);
-            carry = (int)((b1 % 10 + b2 % 10 + carry) / 2);
-            b1 = b1 / 10;
-            b2 = b2 / 10;
+            sum[i++] = (int)((ten % 10 + eleven % 10 + carry) % 2); // 0
+            carry = (int)((ten % 10 + eleven % 10 + carry) / 2);
+            ten = ten / 10;
+            eleven = eleven / 10;
         }
         if (carry != 0) {
             sum[i++] = carry;
