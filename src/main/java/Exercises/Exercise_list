@@ -173,6 +173,12 @@ Expected Output
 
 Product of two binary numbers: 110
 
+18.1 Napisz program ktory wczytuje plik tekstowy i liczy ilosc wystapien danej litery
+
+18.2 Napisz kalkulator tekstowy
+
+18.3 Napisz program ktory pobiera kurs z NBP (np EUR) i go wypisuje + jednoczesnie przelicza wartosc ktora wpisales na EUR
+
 
 19. Write a Java program to convert a decimal number to binary number. Go to the editor
 Input Data:
