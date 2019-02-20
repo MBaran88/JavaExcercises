@@ -1,13 +1,19 @@
 package Exercises;
 
-
+import javax.swing.*;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.Scanner;
+import java.util.stream.Stream;
 
 /**
  * Hello world! ... and some other exercises
  */
 public class App {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
 //        System.out.println( "Hello World!" );
 
 //        int A = 50;
@@ -169,4 +175,43 @@ public class App {
 //        return binary_prod_result;
 //    }
 
+        //counters
+        int charsCount = 0;
+        int wordsCount = 0;
+        int linesCount = 0;
+        int letterCount = 0;
+
+        Scanner fileScanner = null;
+        File selectedFile = null;
+        JFileChooser chooser = new JFileChooser();
+
+        //choose file
+
+        if (chooser.showOpenDialog(null) == JFileChooser.APPROVE_OPTION) {
+            selectedFile = chooser.getSelectedFile();
+            fileScanner = new Scanner(selectedFile);
+        }
+
+        while (fileScanner.hasNextLine()) {
+            linesCount++;
+            String line = fileScanner.nextLine();
+            Scanner lineScanner = new Scanner(line);
+            // count the characters of the file till the end
+            while (lineScanner.hasNext()) {
+                wordsCount++;
+                String word = lineScanner.next();
+                charsCount += word.length();
+                if ()
+            }
+
+            lineScanner.close();
+        }
+
+        //display the count of characters, words and lines
+        System.out.println("number of chars: " + charsCount);
+        System.out.println("number of words: " + wordsCount);
+        System.out.println("number of lines: " + linesCount);
     }
+
+
+}
