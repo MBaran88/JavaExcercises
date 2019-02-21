@@ -1,6 +1,5 @@
 package Exercises;
 
-
 /**
  * Hello world! ... and some other exercises
  */
